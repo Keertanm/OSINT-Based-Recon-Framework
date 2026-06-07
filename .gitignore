@@ -36,3 +36,4 @@ harvester.xml
 __pycache__/
 *.pyc
 *.pyo
+.idea/
