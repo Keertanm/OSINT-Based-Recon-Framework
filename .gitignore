@@ -28,3 +28,11 @@ __pycache__/
 # Harvester raw output files
 harvester.json
 harvester.xml
+
+# macOS
+.DS_Store
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
