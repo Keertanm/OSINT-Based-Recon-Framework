@@ -1,7 +1,7 @@
 # Virtual Environment
 venv/
 
-# Cloned external tools
+# Cloned external tools (installable from GitHub)
 dnsrecon/
 theHarvester/
 spiderfoot/
@@ -21,9 +21,10 @@ __pycache__/
 .DS_Store?
 *.DS_Store
 
-# Logs
+# Logs & temp
 *.log
 *.tmp
 
-# Large binaries
-*.node
+# Harvester raw output files
+harvester.json
+harvester.xml
