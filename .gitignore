@@ -1,0 +1,29 @@
+# Virtual Environment
+venv/
+
+# Cloned external tools
+dnsrecon/
+theHarvester/
+spiderfoot/
+
+# Generated outputs
+outputs/
+reports/
+screenshots/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+.DS_Store?
+*.DS_Store
+
+# Logs
+*.log
+*.tmp
+
+# Large binaries
+*.node
