@@ -37,7 +37,11 @@ def run_spiderfoot(domain):
         return False
 
 def main():
+    import re
     domain = input("Enter target domain [testphp.vulnweb.com]: ").strip() or "testphp.vulnweb.com"
+    if not re.match(r'^[a-zA-Z0-9][a-zA-Z0-9\-\.]+[a-zA-Z0-9]$', domain):
+        print("[-] Invalid domain format. Exiting.")
+        exit(1)
     print(f"\n🚀 Starting OSINT-Based Reconnaissance Framework → {domain}\n")
 
     os.makedirs("outputs/dns", exist_ok=True)
