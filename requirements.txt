@@ -1,0 +1,4 @@
+python-dotenv==1.2.2
+requests==2.33.1
+requests-file==3.0.1
+shodan==1.31.0
